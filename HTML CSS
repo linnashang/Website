@@ -1,0 +1,210 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+
+     <style>
+      
+       </style>
+     
+     <html lang="ru">
+     
+</head>
+      <body class="image">
+         <main>
+     <pre>     <header>  Меню        Мероприятия кофейни       Контакты </header> </pre> 
+   
+   <main>
+      <h1> Кофе </h1>
+     
+     <div class="container">
+  <div class="item1">
+    <img src="https://coffeegravity.ru/wp-content/uploads/2020/10/%D0%9A%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE-scaled.jpg" alt="Латте" width="500" height="500">
+    <h3>Латте</h3>
+    <p>Мягкий молочный кофе для тех, кто любит нежность.</p>
+  </div>
+
+  <div class="item2">
+    <img src="https://www.nescafe.kz/sites/default/files/2024-09/GettyImages-1466623971.jpg" alt="Капучино" width="500" height="500">
+    <h3>Капучино</h3>
+    <p>Классика с плотной пенкой и глубоким вкусом.</p>
+  </div>
+
+  <div class="item3">
+    <img src="https://cdn.prod.website-files.com/5f92b98ef775e43402afe27f/632845fd4a30f55ce6011c1d_Polyakovfoto_Simple%20Coffee17803.jpg" alt="Эспрессо" width="500" height="500">
+    <h3>Эспрессо</h3>
+    <p>Крепкий, яркий, для бодрости и решительности.</p>
+  </div>
+</div>
+        <div class="container2">
+  <div class="item4">
+    <img src="https://cdn.sae-shop.ru/image/product/additional_images/3001.jpg" alt="Американо" width="500" height="500">
+    <h3>Американо</h3>
+    <p>лёгкий, бодрящий кофе для тех, кто любит чистый вкус.</p>
+  </div>
+
+  <div class="item5">
+    <img src="https://static-sl.insales.ru/files/1/2883/17050435/original/raf-kofe.jpg?1625037531" alt="Раф" width="500" height="500">
+    <h3>Раф</h3>
+    <p>Мягкий сливочный напиток с ванильной сладостью.</p>
+  </div>
+
+  <div class="item6">
+    <img src="https://www.torrefacto.ru/upload/uf/06e/k3okmef7kuubqf852ci02t9a9qdpdd90.png" alt="Мокко" width="500" height="500">
+    <h3>Мокко</h3>
+    <p>Для тех, кому хочется десерта в кружке.</p>
+  </div>
+</div>
+      <h1> Не кофе </h1>
+<div class="container3">
+  <div class="item7"> <img src="https://s1.eda.ru/StaticContent/Photos/120329181829/160625163424/p_O.jpg" alt="Лимонад" width="500" height="500">
+    <h3>Лимонад</h3>
+    <p>Освежающий цитрусовый напиток.</p> </div>
+  <div class="item8"><img src="https://therapy.school/upload/weimg_cache/9a8/9a8e6b2ce2fb87507c57f66728aef9bb/19.11.jpg" alt="Чай" width="500" height="500">
+    <h3>Чай</h3>
+    <p>Лёгкий тёплый напиток для спокойных пауз.</p> </div>
+  <div class="item9"><img src="https://hurom.com.ua/wp-content/uploads/2023/10/front-view-of-fresh-natural-delicious-juice-in-two-glasses-with-red-apple-limes-on-black-background-scaled.jpg" alt="Сок" width="500" height="500">
+    <h3>Сок</h3>
+    <p>Фруктовый заряд сладкой свежести.</p></div>
+  <div class="item10"> <img src="https://korfood.ru/upload/iblock/07c/wbkg4s33fz0awv2th145uqyybs79d9w0/vitaminnaya_bomba_napitki_smuzi.jpg" alt="Смузи" width="500" height="500">
+    <h3>Смузи</h3>
+    <p>Густой ягодно-фруктовый микс</p> </div>
+</div>
+      </main>
+   <footer class="foot"> 
+
+    <table>
+
+      <tr>
+
+      <td>Контакты</td>
+
+       <td>Партнеры кафе</td>    
+        
+        </tr>
+
+      </table>
+  
+Рыкова Полина
+  
+  </footer> 
+
+  </body>
+
+</html>
+
+CSS
+
+header{text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: Calibri;
+  color:#C496DE;
+}
+
+.image{
+  background-image: url(https://www.shutterstock.com/image-vector/white-abstract-islamic-background-arabian-600nw-2391344991.jpg);
+  }
+
+h1{
+  font-family: Times New Roman;
+  font-size: 30px;
+  color:#522881;
+  text-align: center;
+  }
+
+h3{
+  font-family: Times New Roman;
+  font-size: 30px;
+  color:#522881;
+  text-align: left;
+  }
+
+p{
+  font-family: Calibri;
+  font-size: 20px;
+  color:#522881;
+  text-align: left;
+  }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px;
+}
+
+.item1 {
+  width: 500px;
+  height: 700px;
+  background-color: lightblue;
+}
+
+.item2 {
+  width: 500px;
+  height: 700px;
+  background-color: lightgreen;
+}
+
+.item3 {
+  width: 500px;
+  height: 700px;
+  background-color: lightpink;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1300px;
+}
+.item4 {
+  width: 500px;
+  height: 700px;
+  background-color: lightcoral;
+}
+.item5 {
+  width: 500px;
+  height: 700px;
+  background-color: lightgoldenrodyellow;
+}
+.item6 {
+  width: 500px;
+  height: 700px;
+  background-color: lightseagreen;
+}
+
+
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 350px;
+}
+
+.item7 {
+  padding: 90px;
+  background-color: lightsalmon;
+}
+.item8 {
+  padding: 90px;
+  background-color: lightsteelblue;
+}
+.item9 {
+  padding: 90px;
+  background-color: lightcyan;
+}
+.item10 {
+  padding: 90px;
+  background-color: lightyellow;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
